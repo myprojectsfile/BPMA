@@ -9,8 +9,32 @@
     <img src="/assets/images/perspective/perspective_container.jpg" width="100%" height="auto" alt="چشم انداز">
   </div>
   <!-- <div fxFlex="20" fxFlexFill fxLayoutAlign="center center">
+    <h3>چشم انداز توسعه ترمینال چند منظوره</h3>
   </div>
   <div fxFlex="100%" fxFlexFill fxLayoutAlign="center center">
-    <div [innerHTML]="sanHtml"></div>
+    <style>
+      .h_iframe-aparat_embed_frame {
+        position: relative;
+      }
+
+      .h_iframe-aparat_embed_frame .ratio {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .h_iframe-aparat_embed_frame iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+    <div class="h_iframe-aparat_embed_frame">
+      <span style="display: block;padding-top: 57%"></span>
+      <iframe [src]="'https://www.aparat.com/video/video/embed/videohash/meVnI/vt/frame' | safe" allowFullScreen="true" webkitallowfullscreen="true"
+        mozallowfullscreen="true"></iframe>
+    </div>
   </div> -->
 </div>

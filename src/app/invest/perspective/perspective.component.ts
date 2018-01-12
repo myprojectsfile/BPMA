@@ -1,11 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { SafePipe } from './../../shared/safe.pipe';
+import { Component, OnInit, Pipe } from '@angular/core';
 import { DomSanitizer } from '@angular/platform-browser';
 import { SafeHtml } from '@angular/platform-browser/src/security/dom_sanitization_service';
 
 @Component({
   selector: 'app-perspective',
   templateUrl: './perspective.component.html',
-  styleUrls: ['./perspective.component.css']
+  styleUrls: ['./perspective.component.css'],
 })
 export class PerspectiveComponent implements OnInit {
 
