@@ -12,6 +12,9 @@ import { PortFacilitiesComponent } from './port-facilities/port-facilities.compo
 import { InvFaqComponent } from './inv-faq/inv-faq.component';
 import { InvestorsComponent } from './investors/investors.component';
 import { SafePipe } from '../shared/safe.pipe';
+import { InvestComponent } from './invest.component';
+import { NeginProjectsComponent } from './negin-projects/negin-projects.component';
+import { InvestFlowComponent } from './invest-flow/invest-flow.component';
 
 @NgModule({
   imports: [
@@ -19,6 +22,6 @@ import { SafePipe } from '../shared/safe.pipe';
     InvestRoutingModule,
     MaterialModule
   ],
-  declarations: [MainComponent, SlideshowComponent, PerspectiveComponent, InvOpportunityComponent, SpezAdvantagesComponent, BuzTourismComponent, PortFacilitiesComponent, InvFaqComponent, InvestorsComponent, SafePipe]
+  declarations: [MainComponent, SlideshowComponent, PerspectiveComponent, InvOpportunityComponent, SpezAdvantagesComponent, BuzTourismComponent, PortFacilitiesComponent, InvFaqComponent, InvestorsComponent, SafePipe, InvestComponent, NeginProjectsComponent, InvestFlowComponent]
 })
 export class InvestModule { }
